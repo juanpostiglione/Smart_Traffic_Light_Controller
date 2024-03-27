@@ -4,7 +4,7 @@
 This repository contains a VHDL project that simulates a traffic light controller. Designed with educational purposes in mind, it models a traffic light system at an intersection, accounting for both regular traffic flow and emergency vehicle precedence.
 
 ## Description:
-The core of the traffic light controller is a finite state machine (FSM) that navigates through a series of states to control the lights according to a set of defined rules. The FSM logic takes into account the following sequence:
+The core of the traffic light controller is a state machine that navigates through a series of states to control the lights according to a set of defined rules. The FSM logic takes into account the following sequence:
 
 1) Normal Operation: The green light on University Avenue stays on for five cycles unless interrupted by an emergency vehicle on 17th Street (EV signal is high), which causes an immediate transition to yellow.
 2) Car Waiting: After five green cycles, if a car is waiting (CW signal is high), the light transitions to yellow; otherwise, it cycles back to green.
@@ -17,3 +17,7 @@ The VHDL design strictly adheres to these operational stages, ensuring that:
 - There is always one light on.
 - The presence of emergency vehicles is given priority in the state transitions.
 
+## Algorithmic State Machine Chart
+
+
+![Untitled Diagram drawio-2](https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/fe934bad-983b-4945-97ce-36491a40fb6d)

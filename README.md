@@ -26,3 +26,12 @@ This chart describes the behavior above.
 This table describes the ASM Chart above, with all the cases and stages.
 <img width="959" alt="Screenshot 2024-03-27 at 6 25 01 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/3ca65e7f-9422-438b-93f3-4e635e59a09a">
 
+## Simulations
+Included are simulation files from Quartus that detail the state machine's reaction to a series of input events, showcasing how the controller manages state transitions. The simulation verifies the proper function of the controller under different scenarios, including emergency vehicle interruptions.
+
+<img width="967" alt="Screenshot 2024-03-27 at 6 32 51 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/08c17812-acee-4ff5-a207-d30bd447044d">
+<img width="967" alt="Screenshot 2024-03-27 at 6 32 27 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/9724befd-f317-4be0-8ebc-dd9cdb13da35">
+<img width="955" alt="Screenshot 2024-03-27 at 6 31 57 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/074729f6-8996-4186-a976-394211df2798">
+<img width="952" alt="Screenshot 2024-03-27 at 6 31 25 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/ea4984cb-5f09-485b-8543-39bef84459b2">
+
+

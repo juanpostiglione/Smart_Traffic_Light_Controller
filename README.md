@@ -18,6 +18,6 @@ The VHDL design strictly adheres to these operational stages, ensuring that:
 - The presence of emergency vehicles is given priority in the state transitions.
 
 ## Algorithmic State Machine Chart
-
+This chart describes the behavior above.
 
 ![Untitled Diagram drawio-2](https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/fe934bad-983b-4945-97ce-36491a40fb6d)

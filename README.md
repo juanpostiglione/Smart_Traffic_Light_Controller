@@ -21,3 +21,8 @@ The VHDL design strictly adheres to these operational stages, ensuring that:
 This chart describes the behavior above.
 
 ![Untitled Diagram drawio-2](https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/fe934bad-983b-4945-97ce-36491a40fb6d)
+
+## Truth State Table
+This table describes the ASM Chart above, with all the cases and stages.
+<img width="959" alt="Screenshot 2024-03-27 at 6 25 01 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/3ca65e7f-9422-438b-93f3-4e635e59a09a">
+

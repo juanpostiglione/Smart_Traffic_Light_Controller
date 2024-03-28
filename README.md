@@ -1,7 +1,7 @@
 # Traffic_Light_Controller
 
 ## Overview: 
-This repository contains a VHDL project that simulates a traffic light controller. Designed with educational purposes in mind, it models a traffic light system at an intersection, accounting for both regular traffic flow and emergency vehicle precedence.
+This repository contains a VHDL project that simulates a traffic light controller. This kind of traffic light controller, which includes functionality to detect the presence of emergency vehicles and alter the normal operation cycle of traffic signals, can be considered a "smart" traffic system. The incorporation of sensors and logic to prioritize emergency vehicles is an innovative feature that is becoming more common in modern traffic systems.
 
 ## Description:
 The core of the traffic light controller is a state machine that navigates through a series of states to control the lights according to a set of defined rules. The FSM logic takes into account the following sequence:
@@ -34,4 +34,8 @@ Included are simulation files from Intel Quartus Prime that detail the state mac
 <img width="955" alt="Screenshot 2024-03-27 at 6 31 57 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/074729f6-8996-4186-a976-394211df2798">
 <img width="952" alt="Screenshot 2024-03-27 at 6 31 25 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/ea4984cb-5f09-485b-8543-39bef84459b2">
 
+## Circuit Design
+This design features a smart traffic light control system utilizing VHDL for combinational logic and D flip-flops to handle state transitions. Inputs include signals for emergency vehicles (EV) and waiting cars (CW), which are processed to determine the traffic light's next state. This state is then captured by D flip-flops with each clock pulse and fed back as the current state for continuous operation. The outputs control the Green, Yellow, and Red traffic lights, adapting in real-time to traffic conditions. The design ensures efficient traffic flow and emergency vehicle prioritization, all within a cyclical logic framework.
+
+<img width="1256" alt="Screenshot 2024-03-27 at 11 13 53 PM" src="https://github.com/juanpostiglione/Traffic_Light_Controller/assets/128395993/07129523-2716-4eda-91b0-8b8bebc744ee">
 

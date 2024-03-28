@@ -4,7 +4,7 @@
 This repository contains a VHDL project that simulates a traffic light controller. This kind of traffic light controller, which includes functionality to detect the presence of emergency vehicles and alter the normal operation cycle of traffic signals, can be considered a "smart" traffic system. The incorporation of sensors and logic to prioritize emergency vehicles is an innovative feature that is becoming more common in modern traffic systems.
 
 ## Description:
-The core of the traffic light controller is a state machine that navigates through a series of states to control the lights according to a set of defined rules. The FSM logic takes into account the following sequence:
+The core of the traffic light controller is a state machine that navigates through a series of states to control the lights according to a set of defined rules. The SM logic takes into account the following sequence:
 
 1) Normal Operation: The green light on University Avenue stays on for five cycles unless interrupted by an emergency vehicle on 17th Street (EV signal is high), which causes an immediate transition to yellow.
 2) Car Waiting: After five green cycles, if a car is waiting (CW signal is high), the light transitions to yellow; otherwise, it cycles back to green.

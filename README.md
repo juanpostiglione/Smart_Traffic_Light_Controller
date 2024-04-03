@@ -1,4 +1,4 @@
-# Traffic_Light_Controller
+# Smart_Traffic_Light_Controller
 
 ## Overview: 
 This repository contains a VHDL project that simulates a traffic light controller. This kind of traffic light controller, which includes functionality to detect the presence of emergency vehicles and alter the normal operation cycle of traffic signals, can be considered a "smart" traffic system. The incorporation of sensors and logic to prioritize emergency vehicles is an innovative feature that is becoming more common in modern traffic systems.
